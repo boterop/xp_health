@@ -4,7 +4,7 @@ license="All rights reserved"
 [[mods]] #mandatory
 modId="xphealth" #mandatory
 version="${file.jarVersion}" #mandatory
-displayName="XR Health" #mandatory
+displayName="XP Health" #mandatory
 logoFile="xphealth.png" #optional
 credits="" #optional
 authors="boterop" #optional
