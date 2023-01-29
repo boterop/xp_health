@@ -5,14 +5,13 @@ import java.util.Set;
 import net.minecraft.world.entity.ai.attributes.AttributeInstance;
 import net.minecraft.world.entity.ai.attributes.AttributeModifier;
 import net.minecraft.world.entity.player.Player;
-import net.minecraftforge.api.distmarker.Dist;
 import net.minecraftforge.event.entity.player.PlayerEvent;
 import net.minecraftforge.event.entity.player.PlayerXpEvent;
 import net.minecraftforge.eventbus.api.SubscribeEvent;
 import net.minecraftforge.fml.common.Mod;
 import net.minecraft.world.entity.ai.attributes.Attributes;
 
-@Mod.EventBusSubscriber(value = Dist.CLIENT, modid="xphealth", bus= Mod.EventBusSubscriber.Bus.FORGE)
+@Mod.EventBusSubscriber(modid="xphealth", bus= Mod.EventBusSubscriber.Bus.FORGE)
 public class XPEventHandler {
 	@SubscribeEvent
 	public static void onXPChange(PlayerXpEvent.XpChange event) {
