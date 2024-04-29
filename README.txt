@@ -16,14 +16,14 @@ Step 1: Open your command-line and browse to the folder where you extracted the 
 
 Step 2: You're left with a choice.
 If you prefer to use Eclipse:
-1. Run the following command: `./gradlew genEclipseRuns`
+1. Run the following command: `./gradlew genEclipseRuns` (`./gradlew genEclipseRuns` if you are on Mac/Linux)
 2. Open Eclipse, Import > Existing Gradle Project > Select Folder 
    or run `gradlew eclipse` to generate the project.
 
 If you prefer to use IntelliJ:
 1. Open IDEA, and import project.
 2. Select your build.gradle file and have it import.
-3. Run the following command: `./gradlew genIntellijRuns`
+3. Run the following command: `./gradlew genIntellijRuns` (`./gradlew genIntellijRuns` if you are on Mac/Linux)
 4. Refresh the Gradle Project in IDEA if required.
 
 If at any point you are missing libraries in your IDE, or you've run into problems you can 
