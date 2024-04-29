@@ -3,8 +3,7 @@ name: Release new version
 on:
   pull_request:
     branches:
-      - "v*.[0-99]"
-      - "!v*.*.[0-99]-*.[0-99]"
+      - "v*.[0-99]/main"
     types: closed
 
 jobs:
