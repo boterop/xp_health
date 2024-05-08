@@ -16,15 +16,22 @@ Step 1: Open your command-line and browse to the folder where you extracted the 
 
 Step 2: You're left with a choice.
 If you prefer to use Eclipse:
-1. Run the following command: `./gradlew genEclipseRuns` (`./gradlew genEclipseRuns` if you are on Mac/Linux)
+1. Run the following command: `./gradlew genEclipseRuns`
 2. Open Eclipse, Import > Existing Gradle Project > Select Folder 
    or run `gradlew eclipse` to generate the project.
 
 If you prefer to use IntelliJ:
 1. Open IDEA, and import project.
 2. Select your build.gradle file and have it import.
-3. Run the following command: `./gradlew genIntellijRuns` (`./gradlew genIntellijRuns` if you are on Mac/Linux)
+3. Run the following command: `./gradlew genIntellijRuns`
 4. Refresh the Gradle Project in IDEA if required.
+
+If you prefer visual code
+1. Open Code, and import project.
+2. Run the following command: `./gradlew genVSCodeRuns`
+3. To test your mod run: `./gradlew runClient`
+3. Run the following command: `./gradlew jar` to compile the mod
+4. Copy your mod in minecraft from build/libs
 
 If at any point you are missing libraries in your IDE, or you've run into problems you can 
 run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
