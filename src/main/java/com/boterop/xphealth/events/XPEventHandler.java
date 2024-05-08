@@ -32,7 +32,7 @@ public class XPEventHandler {
 
         hearts = hearts < 0 ? 0 : hearts;
 
-        AttributeModifier maxHealth = new AttributeModifier("MaxHealth", hearts, AttributeModifier.Operation.ADDITION);
+        AttributeModifier maxHealth = new AttributeModifier("MaxHealth", hearts, AttributeModifier.Operation.ADD_VALUE);
 
         AttributeInstance attributeInstance = player.getAttribute(Attributes.MAX_HEALTH);
 
