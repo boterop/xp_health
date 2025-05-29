@@ -18,9 +18,8 @@ build
 .gradle
 
 # other
-.eclipse
+eclipse
 run
-.vscode
 
 # Files from Forge MDK
 forge*changelog.txt

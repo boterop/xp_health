@@ -26,13 +26,6 @@ If you prefer to use IntelliJ:
 3. Run the following command: `./gradlew genIntellijRuns`
 4. Refresh the Gradle Project in IDEA if required.
 
-If you prefer visual code
-1. Open Code, and import project.
-2. Run the following command: `./gradlew genVSCodeRuns`
-3. To test your mod run: `./gradlew runClient`
-3. Run the following command: `./gradlew jar` to compile the mod
-4. Copy your mod in minecraft from build/libs
-
 If at any point you are missing libraries in your IDE, or you've run into problems you can 
 run `gradlew --refresh-dependencies` to refresh the local cache. `gradlew clean` to reset everything 
 (this does not affect your code) and then start the process again.
