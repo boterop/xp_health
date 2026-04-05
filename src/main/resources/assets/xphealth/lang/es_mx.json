@@ -1,0 +1,7 @@
+{
+  "xphealth.configuration.title": "Configuración de XP Health",
+  "xphealth.configuration.section.xphealth.common.toml": "Configuración de XP Health",
+  "xphealth.configuration.section.xphealth.common.toml.title": "Configuración de XP Health",
+  "xphealth.configuration.difficulty": "Dificultad",
+  "xphealth.configuration.difficulty.tooltip": "Dificultad del mod. 1 es fácil, 2 es normal, 3 es difícil."
+}
